@@ -1,0 +1,19 @@
+{
+    "name": "Varkes OData-Mock",
+    "apis": [
+        {
+            "name": "services",
+            "basepath": "/service/odata/service.svc",
+            "specification": "services.xml",
+            "auth": "none",
+            "type": "odata"
+        },
+        {
+            "name": "northwind",
+            "basepath": "/northwind/odata/northwind.svc",
+            "specification": "northwind.xml",
+            "auth": "none",
+            "type": "odata"
+        }
+    ]
+}
