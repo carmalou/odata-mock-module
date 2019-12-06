@@ -14,7 +14,7 @@
     "start:dev": "npm run clean && npm run compile && export DEBUG=true && node dist/server/server ../test/varkes_config.json",
     "pretest": "npm run compile",
     "test": "mocha dist/test",
-    "clean": "rm -rf dist || true && rm -r logs || true" 
+    "clean": "rm -rf dist || true && rm -r logs || true"
   },
   "dependencies": {
     "@varkes/configuration": "^0.8.0",
